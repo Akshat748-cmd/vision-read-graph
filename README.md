@@ -4,7 +4,7 @@
 
 <p align="center">
 <a href="https://github.com/Akshat748-cmd/Reading-application/raw/main/assets/wildfire(1).mp4">
-<img src="https://github.com/Akshat748-cmd/Reading-application/blob/main/assets/Screenshot%202026-03-11%20163605.png" width="900">
+<img src="assets/thumbnail mindRead.png" width="900">
 </a>
 </p>
 
