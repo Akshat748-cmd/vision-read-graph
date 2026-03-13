@@ -1,5 +1,9 @@
 # Welcome to your Lovable project
 
+## 🎥 Demo Video
+
+[![Watch Demo](assets/thumbnail.png)](assets/demo.mp4)
+
 ## Project info
 
 **URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
