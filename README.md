@@ -7,7 +7,7 @@ Watch the demo of the Reading Application:
 
 <p align="center">
 <a href="https://github.com/Akshat748-cmd/Reading-application/raw/main/assets/visual-read-graph.mp4">
-<img src="assets/thumbnail-mindread.png" width="900">
+<img src="https://github.com/Akshat748-cmd/Reading-application/raw/main/assets/thumbnail-mindread.png" width="900">
 </a>
 </p>
 ---
