@@ -3,8 +3,8 @@
 ## 🎥 Demo Video
 
 <p align="center">
-<a href="https://github.com/Akshat748-cmd/Reading-application/raw/main/assets/wildfire(1).mp4">
-<img src="assets/thumbnail mindRead.png" width="900">
+<a href="https://github.com/Akshat748-cmd/Reading-application/raw/main/assets/visual%20read%20graph(1).mp4">
+<img src="assets/thumbnail%20mindRead.png" width="900">
 </a>
 </p>
 
