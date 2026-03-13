@@ -8,7 +8,7 @@ Watch the demo of the Reading Application:
 
 <p align="center">
 <a href="https://github.com/Akshat748-cmd/Reading-application/raw/main/assets/visual%20read%20graph(1).mp4">
-<img src="[assets/thumbnail%20mindRead.png](https://github.com/Akshat748-cmd/Reading-application/blob/main/assets/thumbnail%20mindRead.png)" width="900">
+<img src="[assets/thumbnail%20mindRead.png]([https://github.com/Akshat748-cmd/Reading-application/blob/main/assets/thumbnail%20mindRead.png](https://github.com/Akshat748-cmd/Vision-Read-graph/commit/32cfa7a9edecb0084554bfcd3ce52e0bb7724932#diff-fa7cef991c059c89f846829941946ea54206f384985b3af4a1683ee4587775f2))" width="900">
 </a>
 </p>
 
