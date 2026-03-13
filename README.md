@@ -1,27 +1,26 @@
 # MindReader – AI Reading Application with Visual Mind Maps
+
 ## 🎥 Demo Video
 
 Watch the demo of the Reading Application:
 
-▶️ **Click here to watch the demo**
+[![Watch the Demo](https://raw.githubusercontent.com/Akshat748-cmd/Vision-Read-graph/main/assets/thumbnail-mindread.png)](https://github.com/Akshat748-cmd/Vision-Read-graph/blob/main/assets/visual-read-graph.mp4)
 
-<p align="center">
-<a href="(https://github.com/Akshat748-cmd/Vision-Read-graph/blob/main/assets/visual-read-graph.mp4)">
-<img src="(https://github.com/Akshat748-cmd/Vision-Read-graph/raw/main/assets/thumbnail-mindread.png)" width="900">
-</a>
-</p>
+> 👆 **Click the image above** to watch the video on GitHub!
+
+---
 
 ## 🌐 View App in AI Studio
 
 View the application directly in AI Studio:
 
-https://idx.google.com/your-project-link
+[Open in AI Studio](https://idx.google.com/your-project-link)
 
 ---
 
 ## 🚀 Features
 
-* 📖 AI-powered reading assistant
+* 📖 **AI-powered** reading assistant
 * 🧠 Automatic **visual mind map generation**
 * ✨ Clean and interactive UI
 * ⚡ Fast processing of reading topics
@@ -33,11 +32,8 @@ https://idx.google.com/your-project-link
 
 This project is built with:
 
-* **React**
-* **TypeScript**
-* **Vite**
-* **Tailwind CSS**
-* **shadcn/ui**
+* **React** | **TypeScript** | **Vite**
+* **Tailwind CSS** | **shadcn/ui**
 
 ---
 
@@ -46,9 +42,7 @@ This project is built with:
 Clone the repository:
 
 ```bash
-git clone https://github.com/Akshat748-cmd/Reading-application.git
-```
-
+git clone [https://github.com/Akshat748-cmd/Reading-application.git](https://github.com/Akshat748-cmd/Reading-application.git)
 Go to the project folder:
 
 ```bash
