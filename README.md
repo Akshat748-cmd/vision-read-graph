@@ -6,11 +6,10 @@ Watch the demo of the Reading Application:
 ▶️ **Click here to watch the demo**
 
 <p align="center">
-<a href="https://github.com/Akshat748-cmd/Vision-Read-graph/blob/main/assets/visual-read-graph.mp4">
-<img src="[https://github.com/Akshat748-cmd/Reading-application/raw/main/assets/thumbnail-mindread.png](https://github.com/Akshat748-cmd/Vision-Read-graph/raw/main/assets/thumbnail-mindread.png)" width="900">
+<a href="(https://github.com/Akshat748-cmd/Vision-Read-graph/blob/main/assets/visual-read-graph.mp4)">
+<img src="(https://github.com/Akshat748-cmd/Vision-Read-graph/raw/main/assets/thumbnail-mindread.png)" width="900">
 </a>
 </p>
----
 
 ## 🌐 View App in AI Studio
 
