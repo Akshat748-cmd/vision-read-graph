@@ -4,9 +4,13 @@
 
 Watch the demo of the Reading Application:
 
-[![Watch the Demo](https://raw.githubusercontent.com/Akshat748-cmd/Vision-Read-graph/main/assets/thumbnail-mindread.png)](https://github.com/Akshat748-cmd/Vision-Read-graph/blob/main/assets/visual-read-graph.mp4)
-
-> 👆 **Click the image above** to watch the video on GitHub!
+<p align="center">
+  <a href="./assets/visual%20read%20graph%20(1).mp4">
+    <img src="./assets/thumbnail%20mindRead.png" width="800" alt="MindReader Thumbnail">
+  </a>
+  <br>
+  <b>👆 Click the thumbnail to watch the video 👆</b>
+</p>
 
 ---
 
@@ -37,6 +41,12 @@ This project is built with:
 
 ---
 
+## ⚙️ Run Project Locally
+
+Clone the repository:
+
+```bash
+git clone [https://github.com/Akshat748-cmd/Reading-application.git](https://github.com/Akshat748-cmd/Reading-application.git)
 ## ⚙️ Run Project Locally
 
 Clone the repository:
