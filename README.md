@@ -1,8 +1,9 @@
 # Welcome to your Lovable project
-
 ## 🎥 Demo Video
 
-[![Watch Demo](assets/thumbnail.png)](assets/demo.mp4)
+Click the thumbnail below to watch the demo.
+
+[![Demo](assets/thumbnail%20mindRead.png)](assets/visual%20read%20graph%20(1).mp4)
 
 ## Project info
 
