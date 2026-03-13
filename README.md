@@ -1,9 +1,12 @@
 # Welcome to your Lovable project
+
 ## 🎥 Demo Video
 
-Click the thumbnail below to watch the demo.
-
-[![Demo](assets/thumbnail%20mindRead.png)](assets/visual%20read%20graph%20(1).mp4)
+<p align="center">
+<a href="https://github.com/Akshat748-cmd/Reading-application/raw/main/assets/wildfire(1).mp4">
+<img src="https://github.com/Akshat748-cmd/Reading-application/blob/main/assets/Screenshot%202026-03-11%20163605.png" width="900">
+</a>
+</p>
 
 ## Project info
 
