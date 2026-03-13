@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 20% 97%;
+    --foreground: 220 20% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 20% 12%;
+
+    --primary: 185 70% 38%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 40 15% 92%;
+    --secondary-foreground: 220 20% 20%;
+
+    --muted: 40 10% 94%;
+    --muted-foreground: 220 10% 46%;
+
+    --accent: 25 80% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 10% 88%;
+    --input: 220 10% 88%;
+    --ring: 185 70% 38%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 220 15% 30%;
+    --sidebar-primary: 185 70% 38%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 40 15% 95%;
+    --sidebar-accent-foreground: 220 20% 20%;
+    --sidebar-border: 220 10% 92%;
+    --sidebar-ring: 185 70% 38%;
+
+    --font-display: 'Playfair Display', serif;
+    --font-body: 'DM Sans', sans-serif;
+
+    --shadow-card: 0 1px 3px 0 hsl(220 20% 12% / 0.04), 0 1px 2px -1px hsl(220 20% 12% / 0.04);
+    --shadow-elevated: 0 4px 16px -2px hsl(220 20% 12% / 0.08), 0 2px 6px -2px hsl(220 20% 12% / 0.04);
+    --shadow-mindmap: 0 2px 8px -1px hsl(185 70% 38% / 0.15);
+
+    --gradient-primary: linear-gradient(135deg, hsl(185 70% 38%), hsl(185 60% 48%));
+    --gradient-accent: linear-gradient(135deg, hsl(25 80% 55%), hsl(35 90% 60%));
+    --gradient-surface: linear-gradient(180deg, hsl(40 20% 97%), hsl(40 15% 95%));
+  }
+
+  .dark {
+    --background: 220 20% 8%;
+    --foreground: 40 15% 92%;
+
+    --card: 220 18% 12%;
+    --card-foreground: 40 15% 92%;
+
+    --popover: 220 18% 12%;
+    --popover-foreground: 40 15% 92%;
+
+    --primary: 185 65% 50%;
+    --primary-foreground: 220 20% 8%;
+
+    --secondary: 220 15% 16%;
+    --secondary-foreground: 40 15% 85%;
+
+    --muted: 220 15% 18%;
+    --muted-foreground: 220 10% 55%;
+
+    --accent: 25 80% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 20%;
+    --input: 220 15% 20%;
+    --ring: 185 65% 50%;
+
+    --sidebar-background: 220 18% 10%;
+    --sidebar-foreground: 40 15% 85%;
+    --sidebar-primary: 185 65% 50%;
+    --sidebar-primary-foreground: 220 20% 8%;
+    --sidebar-accent: 220 15% 16%;
+    --sidebar-accent-foreground: 40 15% 85%;
+    --sidebar-border: 220 15% 18%;
+    --sidebar-ring: 185 65% 50%;
+
+    --shadow-card: 0 1px 3px 0 hsl(0 0% 0% / 0.2), 0 1px 2px -1px hsl(0 0% 0% / 0.15);
+    --shadow-elevated: 0 4px 16px -2px hsl(0 0% 0% / 0.3), 0 2px 6px -2px hsl(0 0% 0% / 0.2);
+    --shadow-mindmap: 0 2px 8px -1px hsl(185 65% 50% / 0.2);
+
+    --gradient-primary: linear-gradient(135deg, hsl(185 65% 50%), hsl(185 55% 60%));
+    --gradient-accent: linear-gradient(135deg, hsl(25 80% 55%), hsl(35 90% 60%));
+    --gradient-surface: linear-gradient(180deg, hsl(220 20% 8%), hsl(220 18% 10%));
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+  .font-body {
+    font-family: var(--font-body);
+  }
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+  .shadow-mindmap {
+    box-shadow: var(--shadow-mindmap);
+  }
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+  .gradient-accent {
+    background: var(--gradient-accent);
+  }
+  .gradient-surface {
+    background: var(--gradient-surface);
+  }
+}
+
+/* React Flow customization */
+.react-flow__node {
+  font-family: var(--font-body);
+}
+
+.react-flow__controls button {
+  background: hsl(var(--card));
+  border-color: hsl(var(--border));
+  color: hsl(var(--foreground));
+}
+
+.react-flow__controls button:hover {
+  background: hsl(var(--muted));
+}
+
+.react-flow__minimap {
+  background: hsl(var(--card));
+}
